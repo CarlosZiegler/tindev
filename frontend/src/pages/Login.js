@@ -26,11 +26,11 @@ export default function Login({ history }) {
                 <img src={logo} alt="Tindev" />
 
                 <input
-                    placeholder="Digite seu usuário no Github"
+                    placeholder="Enter with your Username from Github"
                     value={username}
                     onChange={e => setUsername(e.target.value)}
                 />
-                <button type="submit">Enviar</button>
+                <button type="submit">Send</button>
             </form>
         </div>
     );

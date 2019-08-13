@@ -94,7 +94,7 @@ export default function Main({ match }) {
                     ))}
                 </ul>
             ) : (
-                <div className="empty">Acabou :( </div>
+                <div className="empty">Finish :( </div>
             )}
 
             {matchDev && (
@@ -109,7 +109,7 @@ export default function Main({ match }) {
                     <p>{matchDev.bio}</p>
 
                     <button type="button" onClick={() => setMatchDev(null)}>
-                        FECHAR
+                        CLOSE
                     </button>
                 </div>
             )}
