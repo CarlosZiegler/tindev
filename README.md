@@ -59,7 +59,7 @@ yarn install
 ### Running Backend 
   ```bash
  cd tindev/backend
- yarn start
+ yarn dev
  ```
 ### Running Frondend
  ```bash
