@@ -26,7 +26,7 @@ export default function Login({ history }) {
                 <img src={logo} alt="Tindev" />
 
                 <input
-                    placeholder="Enter with your Username from Github"
+                    placeholder="Enter a Username from Github"
                     value={username}
                     onChange={e => setUsername(e.target.value)}
                 />
